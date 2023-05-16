@@ -1,0 +1,885 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Elements Reference - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="https://www.unizar.es/" target="_blank" class="logo" style="background-color: blue;">UNIZAR</a>
+				</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Introducción</a></li>
+							<li><a href="generic.html">Teoría</a></li>
+							<li class="active"><a href="elements.html">Biblioteca</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Elements<br />
+									Reference</h1>
+								</header>
+
+								<!-- Text stuff -->
+									<h2>Biblioteca Estática Gráfica</h2>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
+									Finally, this is a <a href="#">link</a>.</p>
+									<hr />
+									
+									<h2>Biblioteca TNA</h2>
+									<p>A continuación se muestra el índice de los ejemplos realizados en función de sus características principales:</p>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Descripción</th>
+													<th>Metodología</th>
+													<th>Puntos interiores</th>
+													<th>Puntos exteriores</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Primera Cúpula</td>
+													<td>Formulación Lineal</td>
+													<td>1</td>
+													<td>4</td>
+												</tr>
+												<tr>
+													<td>Segunda Cúpula</td>
+													<td>Formulación Lineal</td>
+													<td>4</td>
+													<td>4</td>
+												</tr>
+												<tr>
+													<td> Tercera Cúpula</td>
+													<td>Formulación Lineal</td>
+													<td>8</td>
+													<td>8</td>
+												</tr>
+												<tr>
+													<td>Great Court</td>
+													<td>Implementación Matricial</td>
+													<td>16</td>
+													<td>48</td>
+												</tr>
+												<tr>
+													<td>Striatus Bridge</td>
+													<td>Implementación Matricial</td>
+													<td>56</td>
+													<td>25</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+
+									<h3>Formulación Lineal</h3>
+
+									<h4>Primera Cúpula</h4>
+									<p>La primera cúpula propuesta presenta una planta rectangular de 2x2 metros discretizada
+										en 5 puntos con un total de 4 secciones. Al ser una planta sencilla, se puede
+										emplear el análisis simple.</p>
+
+										<h5>Condiciones de contorno</h5>
+									<div class="box">
+										<ul>
+											<li>Se establecen como apoyos los nodos <strong><em> 2 ,3 ,4 y 5</em></strong>, haciendo referencia que su
+												cota será cero, y por lo tanto su altura es conocida.</li>
+											<li>Se establece una carga (P) parametrizable controlada por el usuario, cabe destacar
+												que su magnitud será en Newtons.</li>
+											<li>Se establece un factor de escala (ζ) parametrizable controlada por el usuario.</li>
+										</ul>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										  <img src="images/PC_0.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										  <img src="images/PC_1.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<p>Una vez establecida la Malla Primal Γ, se plantea el equilibrio vertical en función
+										de la numeración establecida.</p>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/PC_2.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<p>Se reformula en el plano horizontal a través de la geometría de la planta para tener
+										como incógnita la altura de los puntos internos, en este caso sólo uno, en vez de las
+										fuerzas, es decir, la geometría pasa a ser el objetivo de resolución del problema.</p>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/PC_3.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/PC_4.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/PC_5.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/PC_6.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/PC_7.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<h5>¡Ejemplo Interactivo 1!</h5>
+
+									<p>Ha llegado el momento, comprueba la teoría por tí mismo y prueba diferentes combinaciones!</p>
+
+									<iframe scrolling="no" title="TNA1_VersionFinal" src="https://www.geogebra.org/material/iframe/id/kukeaevw/width/1366/height/705/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="900px" height="705px" style="border:0px;"> </iframe>
+
+
+									
+
+									<h4>Segunda Cúpula</h4>
+									<p>La segunda cúpula propuesta presenta una planta rectangular de 10x10 metros
+										discretizada en 8 puntos con un total de 5 secciones.</p>
+
+										<h5>Condiciones de contorno</h5>
+									<div class="box">
+										<ul>
+											<li>Se establecen como apoyos los nodos <strong><em> 5 ,6, 7 y 8</em></strong>, haciendo referencia que su
+												cota será cero, y por lo tanto su altura es conocida.</li>
+											<li>Se establece una carga (P) parametrizable controlada por el usuario, cabe destacar
+												que su magnitud será en Newtons.</li>
+											<li>Se establece un factor de escala (ζ) parametrizable controlada por el usuario.</li>
+										</ul>
+									</div>
+
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										  <img src="images/FL_0.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										  <img src="images/FL_1.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										  <img src="images/FL_2.PNG" alt="" style="margin-bottom: 10px;" />
+										</div>
+									</div>
+
+									<p>Una vez establecida la <strong><em>Malla Primal Γ</em></strong>, se plantea el equilibrio vertical en función de
+										la numeración establecida.</p>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_3.PNG" alt="" style="margin-bottom: 10px;" />
+										</div>
+									</div>
+
+									<p>Las longitudes de las ramas ji en la <strong><em>Malla Primal Γ</em></strong> están definidas mediante L<sup>H</sup><sub>ji</sub>, 
+										véase <strong><em>Figura 2.4</em></strong>.</p>
+									
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_4.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_5.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+								
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_6.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_7.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+								
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_8.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+									<h5>¡Ejemplo Interactivo 2!</h5>
+
+									<p>Ha llegado el momento, comprueba la teoría por tí mismo y prueba diferentes combinaciones!</p>
+
+									<iframe scrolling="no" title="TNA2_VersionFinal" src="https://www.geogebra.org/material/iframe/id/qjmqaj7b/width/1366/height/705/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="900px" height="705px" style="border:0px;"> </iframe>
+
+
+									<h4>Tercera Cúpula</h4>
+									
+									<p>La tercera cúpula propuesta presenta una planta cuadrada de 8,4x8,4 metros discretizada
+										en 16 puntos con un total de 11 secciones. Al ser una planta sencilla, nuevamente,
+										se puede emplear el análisis simple.</p>
+
+										<h5>Condiciones de contorno</h5>
+									<div class="box">
+										<ul>
+											<li>Se establecen como apoyos los nodos <strong><em> 9, 10, 11, 12, 13, 14, 15 y 16</em></strong>, haciendo referencia que su
+												cota será cero, y por lo tanto su altura es conocida.</li>
+											<li>Se establece una carga (P) parametrizable controlada por el usuario, cabe destacar
+												que su magnitud será en Newtons.</li>
+											<li>Se establece un factor de escala (ζ) parametrizable controlada por el usuario.</li>
+										</ul>
+									</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_9.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_10.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+									
+									<p>Una vez establecida la <strong><em>Malla Primal Γ</em></strong>, se plantea el equilibrio vertical en función
+										de la numeración establecida.</p>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_11.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_12.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_13.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_14.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_15.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/FL_16.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+
+								<h5>¡Ejemplo Interactivo 3!</h5>
+
+									<p>Ha llegado el momento, comprueba la teoría por tí mismo y prueba diferentes combinaciones!</p>
+
+									<iframe scrolling="no" title="TNA3_VersionFinal" src="https://www.geogebra.org/material/iframe/id/wnwghuja/width/1366/height/705/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="900px" height="705px" style="border:0px;"> </iframe>
+
+									<h3>Implementación Matricial</h3>
+
+									<p>A continuación, se muestran los dos ejemplos realizados a través de la implementación matricial!</p>
+
+									<h4>Great Court</h4>
+
+									<p>La primera propuesta como ejemplo realizado mediante la resolución matricial
+										es el de la cubierta acristalada del Great Court en el British Museum de Londres,
+										un área rectangular de 73 x 97 metros que contiene una circunferencia de 44 métros
+										de diámetro desplazada con un offset de 3 metros en el eje x que representa la “sala
+										de lectura” o Reading Room. Los datos geométricos se han obtenido de un estudio
+										sobre el desarrollo de la cúpula de J.K.Williams (2001).</p>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/IM_0.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<div class="image main">
+											<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+											<img src="images/IM_1.PNG" alt="" style="margin-bottom: 1px;" />
+											</div>
+										</div>
+
+										<h5>Condiciones de contorno</h5>
+									<div class="box">
+										<ul>
+											<li>Se establecen como apoyos los nodos <strong><em> 1, 2 ,3 ,4 ,5 ,6 ,7 ,8 ,9 ,10 ,11 ,12 ,13 ,14 ,15 y 16</em></strong>, haciendo referencia que su
+												cota será cero, y por lo tanto su altura es conocida.</li>
+											<li>Consta de una malla discretizada en 48 nodos, dónde hay 48 ramas y está formada por 32 polígonos. </li>
+											<li>Se establece una carga (P) parametrizable controlada por el usuario, cabe destacar
+												que su magnitud será en Newtons.</li>
+											<li>Se establece un factor de escala (ζ) parametrizable controlada por el usuario.</li>
+										</ul>
+									</div>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										<img src="images/IM_2.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+								<p>Una vez definida la caracterización global de la <strong><em>Malla Primal Γ</em></strong>, se dispone a realizar
+									la matriz C de relaciones nodales.<br>
+									Cómo se ha explicado en la teoría, el procedimiento consiste en seguir el
+									flujo de fuerzas propuesto, y completar la matriz con 1 si el punto representa la cabeza
+									de la línea de fuerza, -1 si representa la cola de la línea de fuerza, ó 0 en el resto
+									de los casos.<br>
+									El siguiente paso es el desarrollo de la <strong><em>Malla dual</em></strong> a partir de las ramas convergentes
+									en cada punto orientadas en el sentido de las agujas del reloj las entrantes al nodo y
+									en el opuesto las salientes.<br>
+									Este proceso ha tenido una dificultad añadida para su realización debido a que las
+									ramas son muy irregulares y los ángulos complejos, pero finalmente se ha llegado a
+									una malla como la mostrada en la Figura 4.8, dónde P<sub>i</sub> hace referencia al polígono que representa el equilibrio nodal del punto i en la <strong><em>Malla Primal Γ</em></strong> </p>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										<img src="images/IM_3.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+								<p>A partir de esta malla se puede construir la matriz de relaciones del diagrama
+									recíproco <strong><em>C*</em></strong> de dimensiones <i>m x p</i> siendo <i>m</i> el número de líneas de fuerza y <i>p</i> el
+									número de polígonos de la malla original, que en la dual se han convertido en puntos.</p>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										<img src="images/IM_4.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>
+
+								<p>Tal y cómo se ha definido en la programación, se ha definido como valores paramétricos
+									tanto la carga asociada a cada nodo interior que será uniforme para todos como el factor de escala ζ, dando la oportunidad al usuario de componer diferentes
+									soluciones de estructuras.</p>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										<img src="images/IM_5.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>		
+									
+								<p>Una vez realizado lo anterior, se calculan las longitudes de las ramas en ambos diagramas
+									y se aplican la ecuación para la resolución del problema y poder definir las
+									alturas de los nodos interiores.</p>
+
+									<div class="image main">
+										<div class="image-container" style="display: flex; flex-direction: column; align-items: center;">
+										<img src="images/IM_6.PNG" alt="" style="margin-bottom: 1px;" />
+										</div>
+									</div>	
+
+								<h5>¡Ejemplo Interactivo 4!</h5>
+
+								<p>Ha llegado el momento, comprueba la teoría por tí mismo y prueba diferentes combinaciones!</p>
+								
+								<iframe scrolling="no" title="GreatCourtTNA_VersionFinal" src="https://www.geogebra.org/material/iframe/id/c4vvz9s8/width/1366/height/705/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="900px" height="705px" style="border:0px;"> </iframe>
+
+									<h4>Striatus Bridge</h4>
+
+
+
+
+
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<header>
+										<h2>Heading with a Subtitle</h2>
+										<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+									</header>
+									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+									<header>
+										<h3>Heading with a Subtitle</h3>
+										<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+									</header>
+									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+									<header>
+										<h4>Heading with a Subtitle</h4>
+										<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+									</header>
+									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+
+									<hr />
+
+								<!-- Lists -->
+									<h2>Lists</h2>
+									<div class="row">
+										<div class="col-6 col-12-small">
+
+											<h3>Unordered</h3>
+											<ul>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Sagittis lorem eleifend.</li>
+												<li>Felis feugiat dolore viverra.</li>
+												<li>Dolor pulvinar etiam.</li>
+											</ul>
+
+											<h3>Alternate</h3>
+											<ul class="alt">
+												<li>Dolor pulvinar etiam etiam.</li>
+												<li>Sagittis adipiscing eleifend.</li>
+												<li>Felis enim dolore viverra.</li>
+												<li>Dolor pulvinar etiam etiam.</li>
+											</ul>
+
+										</div>
+										<div class="col-6 col-12-small">
+
+											<h3>Ordered</h3>
+											<ol>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Etiam vel felis at viverra.</li>
+												<li>Felis enim feugiat magna.</li>
+												<li>Etiam vel felis nullam.</li>
+												<li>Felis enim et tempus.</li>
+											</ol>
+
+											<h3>Icons</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+												<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+											</ul>
+											<ul class="icons alt">
+												<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands alt fa-github"><span class="label">Github</span></a></li>
+												<li><a href="#" class="icon brands alt fa-dribbble"><span class="label">Dribbble</span></a></li>
+											</ul>
+
+										</div>
+									</div>
+									<h3>Definition</h3>
+									<dl>
+										<dt>Item 1</dt>
+										<dd>
+											<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										</dd>
+										<dt>Item 2</dt>
+										<dd>
+											<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										</dd>
+										<dt>Item 3</dt>
+										<dd>
+											<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										</dd>
+									</dl>
+
+									<h3>Actions</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions small">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-small">
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-6 col-12-small">
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary fit">Default</a></li>
+												<li><a href="#" class="button fit">Default</a></li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-small">
+											<ul class="actions stacked">
+												<li><a href="#" class="button primary small fit">Small</a></li>
+												<li><a href="#" class="button small fit">Small</a></li>
+											</ul>
+										</div>
+									</div>
+
+									<hr />
+
+								<!-- Blockquote -->
+									<h2>Blockquote</h2>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis.</blockquote>
+
+									<hr />
+
+								<!-- Table -->
+									<h2>Table</h2>
+
+									<h3>Default</h3>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item 1</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item 2</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item 3</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item 4</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item 5</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h3>Alternate</h3>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item 1</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item 2</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item 3</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item 4</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item 5</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<hr />
+
+								<!-- Buttons -->
+									<h2>Buttons</h2>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary large">Large</a></li>
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions fit">
+										<li><a href="#" class="button primary fit">Fit</a></li>
+										<li><a href="#" class="button fit">Fit</a></li>
+									</ul>
+									<ul class="actions fit small">
+										<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+										<li><a href="#" class="button fit small">Fit + Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-search">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Primary</span></li>
+										<li><span class="button disabled">Default</span></li>
+									</ul>
+
+									<hr />
+
+								<!-- Form -->
+									<h2>Form</h2>
+
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<select name="demo-category" id="demo-category">
+													<option value="">- Category -</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<!-- Break -->
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-normal" name="demo-priority">
+												<label for="demo-priority-normal">Normal</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<!-- Break -->
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">I am a human</label>
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="primary" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+
+									<hr />
+
+								<!-- Image -->
+									<h2>Image</h2>
+
+									<h3>Fit</h3>
+									<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
+									<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<!-- Break -->
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<!-- Break -->
+											<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+										</div>
+									</div>
+
+									<h3>Left &amp; Right</h3>
+									<p><span class="image left"><img src="images/pic08.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+									<p><span class="image right"><img src="images/pic09.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+
+									<hr />
+
+								<!-- Box -->
+									<h2>Box</h2>
+									<div class="box">
+										<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum dolor sit amet nullam. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis volutpat lorem ipsum dolor.</p>
+									</div>
+
+									<hr />
+
+								<!-- Preformatted Code -->
+									<h2>Preformatted</h2>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';
+</code></pre>
+
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
